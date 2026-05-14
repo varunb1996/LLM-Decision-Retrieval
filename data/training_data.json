@@ -1,0 +1,62 @@
+[
+  {
+    "input": "Kafka vs RabbitMQ",
+    "output": "Context: Both Kafka and RabbitMQ are messaging systems used in distributed architectures.\nOptions: Kafka (streaming platform), RabbitMQ (message broker).\nTrade-offs: Kafka is designed for high-throughput, distributed streaming and log-based systems, while RabbitMQ is better for complex routing and low-latency message delivery.\nRecommendation: Use Kafka for event streaming and large-scale pipelines, RabbitMQ for task queues and traditional messaging.\nFailure cases: Kafka may be overkill for simple queues, RabbitMQ may struggle with very high throughput."
+  },
+  {
+    "input": "REST vs GraphQL",
+    "output": "Context: Both are API design approaches.\nOptions: REST (resource-based), GraphQL (query-based).\nTrade-offs: REST is simpler and widely supported, while GraphQL allows flexible data fetching but adds complexity.\nRecommendation: Use REST for simple APIs, GraphQL when clients need flexible queries.\nFailure cases: GraphQL can cause performance issues if poorly designed, REST can lead to over-fetching."
+  },
+  {
+    "input": "Monolith vs Microservices",
+    "output": "Context: Architectural styles for backend systems.\nOptions: Monolith (single codebase), Microservices (distributed services).\nTrade-offs: Monoliths are simpler to build and deploy, microservices offer scalability but add operational complexity.\nRecommendation: Start with a monolith, move to microservices as system complexity grows.\nFailure cases: Microservices can fail due to poor service boundaries, monoliths can become hard to scale."
+  },
+  {
+    "input": "SQL vs NoSQL",
+    "output": "Context: Database paradigms.\nOptions: SQL (relational), NoSQL (non-relational).\nTrade-offs: SQL provides strong consistency and structured schema, NoSQL offers flexibility and scalability.\nRecommendation: Use SQL for structured data, NoSQL for unstructured or high-scale applications.\nFailure cases: NoSQL may lack consistency, SQL may not scale easily without tuning."
+  },
+  {
+    "input": "Docker vs Virtual Machines",
+    "output": "Context: Virtualization technologies.\nOptions: Docker (containers), Virtual Machines.\nTrade-offs: Containers are lightweight and fast, VMs provide stronger isolation but are heavier.\nRecommendation: Use Docker for microservices and deployment pipelines, VMs for full OS isolation.\nFailure cases: Containers may face security issues, VMs can be resource-heavy."
+  },
+  {
+    "input": "Batch processing vs Stream processing",
+    "output": "Context: Data processing approaches.\nOptions: Batch processing, Stream processing.\nTrade-offs: Batch is simpler and cost-effective, stream processing provides real-time insights but is complex.\nRecommendation: Use batch for historical data, streaming for real-time applications.\nFailure cases: Streaming systems can be hard to maintain, batch systems may introduce latency."
+  },
+  {
+    "input": "CNN vs Vision Transformer",
+    "output": "Context: Deep learning models for image tasks.\nOptions: CNN, Vision Transformer.\nTrade-offs: CNNs work well with smaller datasets, transformers require large datasets but scale better.\nRecommendation: Use CNN for limited data, transformers for large-scale training.\nFailure cases: Transformers may overfit on small data, CNNs may struggle with global context."
+  },
+  {
+    "input": "LSTM vs Transformer",
+    "output": "Context: Sequence modeling architectures.\nOptions: LSTM, Transformer.\nTrade-offs: LSTMs handle sequential data well but are slower, transformers parallelize better and scale.\nRecommendation: Use transformers for modern NLP tasks.\nFailure cases: Transformers require large compute, LSTMs may struggle with long dependencies."
+  },
+  {
+    "input": "Flask vs FastAPI",
+    "output": "Context: Python web frameworks.\nOptions: Flask, FastAPI.\nTrade-offs: Flask is simple and flexible, FastAPI provides better performance and automatic validation.\nRecommendation: Use FastAPI for APIs, Flask for simple apps.\nFailure cases: Flask can become unstructured, FastAPI may feel complex initially."
+  },
+  {
+    "input": "Synchronous vs Asynchronous programming",
+    "output": "Context: Execution models in programming.\nOptions: Synchronous, Asynchronous.\nTrade-offs: Synchronous is easier to understand, asynchronous improves performance for IO-bound tasks.\nRecommendation: Use async for high concurrency applications.\nFailure cases: Async code can be hard to debug, sync code may block performance."
+  },
+  {
+    "input": "Horizontal scaling vs Vertical scaling",
+    "output": "Context: Scaling strategies.\nOptions: Horizontal scaling, Vertical scaling.\nTrade-offs: Horizontal scaling increases system complexity, vertical scaling is limited by hardware.\nRecommendation: Use horizontal scaling for distributed systems.\nFailure cases: Horizontal scaling needs load balancing, vertical scaling hits hardware limits."
+  },
+  {
+    "input": "Feature engineering vs End-to-end learning",
+    "output": "Context: ML pipeline design.\nOptions: Feature engineering, End-to-end learning.\nTrade-offs: Feature engineering requires domain knowledge, end-to-end learning requires more data.\nRecommendation: Use feature engineering for smaller datasets.\nFailure cases: End-to-end models may overfit, feature engineering may miss patterns."
+  },
+  {
+    "input": "On-premise vs Cloud computing",
+    "output": "Context: Infrastructure choices.\nOptions: On-premise, Cloud.\nTrade-offs: On-premise offers control, cloud offers scalability and flexibility.\nRecommendation: Use cloud for scalability, on-premise for sensitive data.\nFailure cases: Cloud costs can grow, on-premise lacks flexibility."
+  },
+  {
+    "input": "Edge computing vs Cloud computing",
+    "output": "Context: Data processing locations.\nOptions: Edge computing, Cloud computing.\nTrade-offs: Edge reduces latency, cloud provides scalability.\nRecommendation: Use edge for real-time processing.\nFailure cases: Edge devices are limited, cloud introduces latency."
+  },
+  {
+    "input": "Supervised vs Unsupervised learning",
+    "output": "Context: Machine learning paradigms.\nOptions: Supervised learning, Unsupervised learning.\nTrade-offs: Supervised requires labeled data, unsupervised works without labels but is less precise.\nRecommendation: Use supervised when labels are available.\nFailure cases: Supervised models need data, unsupervised models may be hard to evaluate."
+  }
+]
